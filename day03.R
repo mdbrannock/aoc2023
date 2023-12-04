@@ -56,7 +56,7 @@ sum(as.numeric(dt3$num))
 
 # WRONG ANSWER (that I think should be right)
 # Get unique numbers
-dt4 <- unique(dt3[, .(num, i.x_start)])
+dt4 <- unique(dt3[, .(num, i.x_start, y_start)])
 sum(as.numeric(dt4$num))
 
 
